@@ -6,9 +6,13 @@ See demo video [here](https://www.youtube.com/watch?v=LunvFyZK2tI&t=2s).
 
 ## Getting Started
 
-To use Gourmand, first fork and clone the Rails backend, which is in this repo. Next, run `bundle install` in the command line and launch Postgres. Once Postgres is running, create your own secret key in an .env file. Then, run `rails db:create` && `rails db:migrate`, followed by `rails db:seed`. Finally, run `rails s -p 4000`, which will launch the API on a local server at the specified port.
+To use Gourmand, first fork and clone the Rails backend repo, found [here](https://github.com/blevm/recipe-finder-backend). Next, run `bundle install` in the command line and launch Postgres. Once Postgres is running, create your own secret key in an .env file. Then, run `rails db:create` && `rails db:migrate`, followed by `rails db:seed`. Finally, run `rails s -p 4000`, which will launch the API on a local server at the specified port.
 
-Once you have the backend running, fork and clone the React frontend, found [here](https://github.com/blevm/recipe-finder-frontend). Before you proceed, request your own API key from Edamam and adjust the routes accordingly to complete successful queries of the API. Next, run `npm install` in the command line, followed by `npm install --save semantic-ui-react`. Then, run `npm start`. As long as you seeded your database when setting up the backend, you can log in as 'Guest' with the password 'guest'.
+Once you have the backend running, fork and clone the React frontend, which is in this repo. Before you proceed, request your own API key from Edamam and adjust the routes accordingly to complete successful queries of the API. Next, run `npm install` in the command line, followed by `npm install --save semantic-ui-react`. Then, run `npm start`. As long as you seeded your database when setting up the backend, you can log in as 'Guest' with the password 'guest'.
+
+## How to use?
+Watch this helpful demo video to get started!
+[Gourmand](https://www.youtube.com/watch?v=JPhX_7idf-Q&t=6s)
 
 ## Built With
 - JavaScript
@@ -17,6 +21,10 @@ Once you have the backend running, fork and clone the React frontend, found [her
 - PostgreSQL
 - Semantic UI React
 - CSS
+
+## API Reference
+
+[Edamam API](https://developer.edamam.com/)
 
 ## Authors
 - Betsy Sallee ([Github](https://github.com/ensallee))
